@@ -20,15 +20,15 @@
 		pinctrl-names = "default";
 		pinctrl-0 = <&mst_pwr &mst_md &mst_pd>;
 	};
-	
+
 	pinctrl@14870000 {
 		mst_pwr: sec-mst,mst-pwr-gpio {
 			samsung,pins ="gpf3-2";
 			samsung,pin-function = <1>;
-			samsung,pin-pud = <0>;
+			samsung,pin-pud = <1>;
 		};
 	};
-	
+
 	pinctrl@14CD0000 {
 		mst_md: sec-mst,mst-md-gpio {
 			samsung,pins ="gpj0-2";
